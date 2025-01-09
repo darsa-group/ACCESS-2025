@@ -1,6 +1,6 @@
 ---
 # Display name
-title: ACCESS-2024
+title: ACCESS-2025
 
 # Is this the primary user of the site?
 superuser: true
@@ -10,6 +10,8 @@ role: Aarhus Comprehensive Computational Entomology Summer School
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: InsectAI
+    url: https://insectai.eu/
   - name: Aarhus University
     url: https://international.au.dk/
 
@@ -38,7 +40,7 @@ highlight_name: true
 
 
 <video id="video" controls="controls" poster="video/placeholder.jpg" preload width="100%">
-<source id="mp4" src="video/ACCESS-2024.mp4" type="video/mp4">
+<source id="mp4" src="video/ACCESS-2025.mp4" type="video/mp4">
 </video>
 
 Recent developments in machine learning and AI are [transforming research in entomology and insect ecology](https://www.pnas.org/doi/10.1073/pnas.2002545117). However, there are too few opportunities to learn how to develop and apply these transformative methods and technologies.
