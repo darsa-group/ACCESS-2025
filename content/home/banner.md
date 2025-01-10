@@ -8,6 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
+title = "🚧WEBSITE UNDER CONSTRUCTION🚧"
+#subtitle = "Check the [opportunities](#opportunities) section"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -38,7 +40,7 @@ weight = 1  # Order that this section will appear.
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["80px", "0", "80px", "0"]
+  padding = ["120px", "0", "120px", "0"]
 
 [advanced]
  # Custom CSS. 

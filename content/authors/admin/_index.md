@@ -43,11 +43,16 @@ highlight_name: true
 <source id="mp4" src="video/ACCESS-2025.mp4" type="video/mp4">
 </video>
 
-Recent developments in machine learning and AI are [transforming research in entomology and insect ecology](https://www.pnas.org/doi/10.1073/pnas.2002545117). However, there are too few opportunities to learn how to develop and apply these transformative methods and technologies.
-To fill this gap, we started the **Aarhus  Comprehensive Computational Entomology Summer School**: a five-day course to learn how to apply state-of-the-art **imaging**, **deep-learning** and **AI** methods to **insect ecology and entomology**.
+
+**AI and deep learning** are [transforming research in ecology and entomology](https://www.pnas.org/doi/10.1073/pnas.2002545117), 
+but starting to use and developing these methods -- and applying them to real-world problems -- can be daunting.
+[InsectAI](https://insectai.eu/) ACCESS empowers early-career researchers to leverage state-of-the-art imaging techniques, AI and other methods 
+to tackle challenges in insect ecology and entomology.
+
 
 ## Where and when
-ACCESS-2024 is an **in-person, residential summer school** based in the beautiful **Mols Bjerge National Park** near Aarhus, Denmark. The event will run from **September 30th** to **October 4th, 2024**. [Aarhus University](https://international.au.dk/) is a highly ranked institution, located in a vibrant city, with several researchers leading the field of computational entomology.
+ACCESS-2025 is an **in-person, residential summer school** based in the beautiful [**Mols Bjerge National Park**](https://www.naturhistoriskmuseum.dk/mols-laboratory) 
+near Aarhus, Denmark. The event will run from **September 31th** to **October 5th, 2024**. 
 
 ## What we offer
 * • A fully-funded course - **free tuition, accommodation and food** for the selected candidates
@@ -56,10 +61,10 @@ ACCESS-2024 is an **in-person, residential summer school** based in the beautifu
 * • Unfortunately we cannot fund travel to or from the summer school
 
 ## Who the course is for
-* • Early career researchers (graduate students, PhD and postdocs)
 * • Biologists (entomologists, ecologists, etc) wanting to apply computational methods to their fields
-* • Data scientists (engineers, physicists, etc) seeking to translate their expertise to study insects
+* • Computer and data scientists (engineers, physicists, etc) seeking to translate their expertise to study insects
+* • We particularly support early-career researchers (graduate students, PhDs and postdoc)
 
 ## How to take part
 * • Read the [application section](#application)
-* • Fill the [application form](https://forms.gle/5nepSFsC4tcBWbG88)
+* • Fill the [application form](https://forms.gle/egpk1u3Lq7Y8NXJZA)

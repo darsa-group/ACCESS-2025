@@ -19,6 +19,9 @@ main:
   - name: Contributors
     url: '#people'
     weight: 40
+  - name:  Past Editions
+    url: '#past_editions'
+    weight: 50
   - name: Contact
     url: '#contact'
     weight: 60
