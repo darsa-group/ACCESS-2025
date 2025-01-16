@@ -20,7 +20,7 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Keynote speakers
+    - name: Mentors
       tag: keynote
     - name: Assistants
       tag: assistant
