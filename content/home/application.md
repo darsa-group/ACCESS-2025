@@ -15,7 +15,6 @@ design:
   columns: '2'
 ---
 
-We can accommodate a maximum of **20 candidates** during our five day residential course.
 
 ### Course requirements
 The course is designed for early career researchers interested in computational entomology, whether they come from a biological or data science background. Specific requirements are as follows:
@@ -34,3 +33,5 @@ Do not be afraid of being creative and thinking out of the box: your project cou
 We will also ask you several additional questions during your application. Should you be selected, we will use this information to form teams of candidates based on complementary skills and interests.
 
 To complete your application, please fill out the [application form](https://forms.gle/5nepSFsC4tcBWbG88) **by April 15th, 2025**.
+
+We will fully fund between **15 and 20 candidates**, but might be able to host a handful of self-funded candidates.

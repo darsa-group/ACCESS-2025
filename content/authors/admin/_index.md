@@ -55,10 +55,9 @@ ACCESS-2025 is an **in-person, residential summer school** based in the beautifu
 near Aarhus, Denmark. The event will run from **September 28th** to **October 4th, 2025**. 
 
 ## What we offer
-* • A fully-funded course - **free tuition, accommodation and food** for the selected candidates
+* • A fully-funded course - **free tuition, accommodation and food, and travel refunds** for the selected candidates
 * • A series of **guest lectures** and **practical workshops** from international experts
 * • A **project-based** learning experience within a **multidisciplinary student team**
-* • Unfortunately we cannot fund travel to or from the summer school
 
 ## Who the course is for
 * • Biologists (entomologists, ecologists, etc) wanting to apply computational methods to their fields
