@@ -6,12 +6,7 @@ library("rjson")
 
 
 ROLES <- c("keynote", "assistant", "organiser")
-SOCIAL_LINKS_MAP <- list(twitter=list(
-  icon="twitter",
-  icon_pack= "fab",
-  name= "Follow",
-  url= "https://twitter.com/{value}"
-),
+SOCIAL_LINKS_MAP <- list(
 orcid=list(
   icon="orcid",
   icon_pack= "fab",

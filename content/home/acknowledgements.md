@@ -11,5 +11,6 @@ subtitle:
 design:
   columns: '1'
 ---
-This summer school is funded by the Danish [Global Innovation Network Programme](https://ufm.dk/en/research-and-innovation/funding-programmes-for-research-and-innovation/eu-and-international-funding-programmes/international-cooperation/international-network-programme-1)
+
+This summer school is funded by the [InsectAI COST Action](https://www.cost.eu/actions/CA22129/), read more about the COST Association [here](https://insectai.eu/).
 

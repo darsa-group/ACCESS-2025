@@ -56,13 +56,14 @@ near Aarhus, Denmark. The event will run from **September 28th** to **October 4t
 
 ## What we offer
 * • A fully-funded course - **free tuition, accommodation and food, and travel refunds** for the selected candidates
+* • We will fully fund between 15 and 20 participants, but might be able to host a handful of self-funded candidates
 * • A series of **guest lectures** and **practical workshops** from international experts
 * • A **project-based** learning experience within a **multidisciplinary student team**
 
 ## Who the course is for
 * • Biologists (entomologists, ecologists, etc) wanting to apply computational methods to their fields
 * • Computer and data scientists (engineers, physicists, etc) seeking to translate their expertise to study insects
-* • We particularly support early-career researchers (graduate students, PhDs and postdoc)
+* • We particularly support early-career researchers (graduate students, PhDs and postdocs)
 
 ## How to take part
 * • Read the [application section](#application)
