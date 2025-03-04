@@ -50,9 +50,16 @@ but starting to use and developing these methods -- and applying them to real-wo
 to tackle challenges in insect ecology and entomology.
 
 
+<p align="center">
+  <img alt="program" src="img/timeline.png" width="100%">
+</p>
+
+
 ## Where and when
 ACCESS-2025 is an **in-person, residential summer school** based in the beautiful [**Mols Bjerge National Park**](https://www.naturhistoriskmuseum.dk/mols-laboratory) 
 near Aarhus, Denmark. The event will run from **September 28th** to **October 4th, 2025**. 
+
+
 
 ## What we offer
 * • A fully-funded course - **free tuition, accommodation and food, and travel refunds** for the selected candidates
