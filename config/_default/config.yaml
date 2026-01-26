@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'InsectAI  ACCESS-2025' # Website name
-baseURL: 'https://darsa.info/ACCESS-2025/' # Website URL
+title: 'InsectAI  ACCESS-2026' # Website name
+baseURL: 'https://darsa.info/ACCESS-2026/' # Website URL
 
 ############################
 ## LANGUAGE
