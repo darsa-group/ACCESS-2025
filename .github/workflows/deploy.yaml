@@ -9,11 +9,11 @@ name: deploy website
 
 jobs:
   blogdown:
-
     runs-on: ubuntu-latest
     env:
       GOOGLE_SERVICE_JSON_KEY: ${{ secrets.GOOGLE_SERVICE_JSON_KEY }}
       PEOPLE_GOOGLE_SHEET_ID: "1sk8joxrkmu750FYWvRtncQLxlnVlB17AbGOP67j4BEI"
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v1
       - uses: r-lib/actions/setup-r@v2
