@@ -5,7 +5,7 @@ _publish.R
 _book
 _bookdown_files
 rsconnect
-
+.vscode
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
