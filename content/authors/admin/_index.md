@@ -1,6 +1,6 @@
 ---
 # Display name
-title: ACCESS-2025
+title: ACCESS-2026
 
 # Is this the primary user of the site?
 superuser: true
@@ -50,14 +50,14 @@ but starting to use and developing these methods -- and applying them to real-wo
 to tackle challenges in insect ecology and entomology.
 
 
-<p align="center">
+<!-- <p align="center">
   <img alt="program" src="img/timeline.png" width="100%">
-</p>
+</p> -->
 
 
 ## Where and when
-ACCESS-2025 is an **in-person, residential summer school** based in the beautiful [**Mols Bjerge National Park**](https://www.naturhistoriskmuseum.dk/mols-laboratory) 
-near Aarhus, Denmark. The event will run from **September 28th** to **October 3th, 2025**. 
+ACCESS-2026 is an **in-person, residential summer school** based in the beautiful [**Mols Bjerge National Park**](https://www.naturhistoriskmuseum.dk/mols-laboratory) 
+near Aarhus, Denmark. The event will run from **September 28th** to **October 3th, 2026**. 
 
 
 
@@ -72,6 +72,6 @@ near Aarhus, Denmark. The event will run from **September 28th** to **October 3t
 * • Computer and data scientists (engineers, physicists, etc) seeking to translate their expertise to study insects
 * • We particularly support early-career researchers (graduate students, PhDs and postdocs)
 
-## How to take part
+<!-- ## How to take part
 * • Read the [application section](#application)
-* • Fill the [application form](https://forms.gle/egpk1u3Lq7Y8NXJZA)
+* • Fill the [application form](https://forms.gle/egpk1u3Lq7Y8NXJZA) -->
