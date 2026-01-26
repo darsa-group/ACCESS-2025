@@ -15,7 +15,7 @@ design:
   columns: '2'
 ---
 
-<p align="center">
+<!-- <p align="center">
   <img alt="mols" src="img/mols.jpg" width="80%">
 </p>
 
@@ -29,4 +29,7 @@ During automated monitoring field tests and extra-curricular excursions, partici
 
 <p align="center">
   <img alt="molslab" src="img/molslab-horses.jpg" width="80%">
-</p>
+</p> -->
+
+### Venue
+Details will be published soon. 

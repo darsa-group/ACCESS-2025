@@ -12,6 +12,7 @@ design:
   columns: '2'
 ---
 
-<p align="center">
+More details will be published soon. 
+<!-- <p align="center">
   <img alt="program" src="img/simple_program.png" width="100%">
-</p>
+</p> -->
