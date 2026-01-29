@@ -40,8 +40,18 @@ sudo apt-get install -y libcurl4-openssl-dev libfontconfig1-dev libharfbuzz-dev 
 
 Store these in a `.secret` file (sourced via `source .secret`) to avoid committing sensitive data. Ensure the service account has read-only access to the sheet.
 
+Ensure your .secret file is formatted as:
+``` json
+GOOGLE_SERVICE_JSON_KEY=your_json_key_here
+PEOPLE_GOOGLE_SHEET_ID=your_google_sheet_id_here
+```
+
 ### Build and Serve Locally
+#### Linux (Ubuntu/Debian)
 ``` shell
 source .secret && Rscript _preprocess.R && Rscript -e 'blogdown::build_site(build_rmd = TRUE)' && Rscript -e 'blogdown::serve_site()'
 ``` 
-
+##### Windows
+``` cmd
+build.bat
+``` 
