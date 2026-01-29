@@ -9,11 +9,11 @@ name: deploy website
 
 jobs:
   blogdown:
-
     runs-on: ubuntu-latest
     env:
       GOOGLE_SERVICE_JSON_KEY: ${{ secrets.GOOGLE_SERVICE_JSON_KEY }}
-      PEOPLE_GOOGLE_SHEET_ID: "11pS8kzSt9ZRNB3DA2UmTErFvsdGpmKZfMMrk35cOuV0"
+      PEOPLE_GOOGLE_SHEET_ID: "1sk8joxrkmu750FYWvRtncQLxlnVlB17AbGOP67j4BEI"
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v1
       - uses: r-lib/actions/setup-r@v2
@@ -43,7 +43,9 @@ jobs:
           key: ${{ steps.get-version.outputs.os-version }}-${{ steps.get-version.outputs.r-version }}-${{ inputs.cache-version }}-${{ hashFiles('renv.lock') }}
           restore-keys: ${{ steps.get-version.outputs.os-version }}-${{ steps.get-version.outputs.r-version }}-${{inputs.cache-version }}-
       - name: Install R package dependencies
-        run: Rscript -e 'install.packages(c("rmarkdown","blogdown", "googlesheets4", "glue", "dplyr", "RefManageR", "kableExtra", "bibtex", "rjson", "data.table", "slickR"))'
+        run: Rscript -e 'install.packages(c("rmarkdown","blogdown", "googlesheets4", "glue", "dplyr", "RefManageR", "kableExtra", "bibtex", "rjson", "data.table", "remotes"))'
+      - name: Install slickR from GitHub
+        run: Rscript -e 'remotes::install_github("yonicd/slickR")'
       - name: Install Hugo
         run: Rscript -e 'blogdown::install_hugo("0.101.0")'
       - name: Proprocess website data
