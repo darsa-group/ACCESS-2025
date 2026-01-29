@@ -1,28 +1,30 @@
-
-### R Script for Installing Packages
-This script installs the required R packages, including those from GitHub. Save it as `install_packages.R` in the repo root.
-
-```r
 # Install required R packages for the ACCESS-2026 website
 
+# Specify the user library path
+user_lib <- Sys.getenv("R_LIBS_USER")
+
+# Set CRAN mirror
+options(repos = c(CRAN = "https://cloud.r-project.org/"))
+
 # Core packages
-install.packages(c(
-  "rmarkdown",
-  "blogdown",
-  "googlesheets4",
-  "glue",
-  "dplyr",
-  "RefManageR",
-  "kableExtra",
-  "bibtex",
-  "rjson",
-  "data.table",
-  "remotes"
-))
+install.packages(
+  c("rmarkdown",
+    "blogdown",
+    "googlesheets4",
+    "glue",
+    "dplyr",
+    "RefManageR",
+    "kableExtra",
+    "bibtex",
+    "rjson",
+    "data.table",
+    "remotes"),  # Correctly formatted as a vector
+  lib = user_lib
+)
 
 # Install slickR from GitHub
-remotes::install_github("yonicd/slickR")
+remotes::install_github("yonicd/slickR", lib = user_lib)
 
 # Optional: Install renv for package management
-install.packages("renv")
+install.packages("renv", lib = user_lib)
 renv::activate()  # Run renv::restore() if renv.lock exists
