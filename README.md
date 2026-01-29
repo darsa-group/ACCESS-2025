@@ -42,9 +42,11 @@ Store these in a `.secret` file (sourced via `source .secret`) to avoid committi
 
 Ensure your .secret file is formatted as:
 ``` json
-GOOGLE_SERVICE_JSON_KEY=your_json_key_here
+GOOGLE_SERVICE_JSON_KEY=path_to_your_private_JSON_key_here
 PEOPLE_GOOGLE_SHEET_ID=your_google_sheet_id_here
 ```
+
+Trying to paste the content of the JSON private key file into the `.secret` file and parse it as an environmental variable creates all sorts of issues; better to serve it this way and keep the R script aligned with the CI workflow. 
 
 ### Build and Serve Locally
 #### Linux (Ubuntu/Debian)
