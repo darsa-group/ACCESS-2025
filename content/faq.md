@@ -8,7 +8,7 @@ date: 20-02-2026
 While it is an advantage to have previous experience with coding, working with electronics and so on, and this is taken into account during evaluation, it does not preclude your participation. Students are expected to do up to 30h of preparation for the course, and this includes self-guided coding tutorials, for example. 
 
 #### *Will I learn how to code during the course?!?*
-Unlikely, there's only so much we can show you in a week! However, the workshops and demos should are structured in a way that you should be able to follow even with no technical background. The aim of the course is to signpost resources and approaches that you can use to learn what you need to leverage state-of-the-art technology for insects monitoring. 
+Unlikely, there's only so much we can show you in a week! However, the workshops and demos are structured in a way that you should be able to follow even with no technical background. The aim of the course is to signpost resources and approaches that you can use to learn what you need to leverage state-of-the-art technology for insects monitoring. 
 
 #### *Will I get to work on my own project during the summer school?*
 Not necessarily. You will work on a project together with your group (2-3 students) and supported by your mentor; this project may or may not be close to the project you submitted during application. We try our best to match students with similar interests, and sometimes groups end up working on a project close to one of the members', but some other times you will have to come up with a new project to work on all together. 
