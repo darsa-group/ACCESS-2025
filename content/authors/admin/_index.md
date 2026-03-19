@@ -53,7 +53,7 @@ but starting to use and developing these methods -- and applying them to real-wo
 
 
 ## Where and when
-ACCESS-2026 is an **in-person, residential summer school** based in Aarhus, Denmark. The event will run from **September 28th** to **October 3th, 2026** (provisional dates). 
+ACCESS-2026 is an **in-person, residential summer school** based in Aarhus, Denmark. The event will run from **14th to 18th September, 2026**. 
 
 ## What we offer
 * • A fully-funded course - **free tuition, and refunds for accommodation, food and travel** for the selected candidates: we can support between 15 and 20 participants, but might be able to host a few self-funded candidates
