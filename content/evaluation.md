@@ -4,7 +4,11 @@ subtitle:
 date: 20-02-2026
 ---
 
-There are no specific requirements regarding education, age, or background for **eligibility**. 
+Participation is open to any individual affiliated with a recognised legal entity anywhere in the world (see [Section 4.1](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf#%5B%7B%22num%22%3A123%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C502%2C0%5D) of the [COST annotated rules](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf)).
+
+While participation is globally open, **eligibility for financial support** (i.e. reimbursement of travel and daily allowance) depends on the country of the participant's affiliation, as defined in [section 6.4](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf#%5B%7B%22num%22%3A147%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C748%2C0%5D).Participants should verify their specific reimbursement status based on their institution's location (countries membership status [here](https://www.cost.eu/about/members/)), and the [COST annotated rules](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf) (consulted March 2026).  
+
+There are no specific requirements regarding education, age, or background. 
 However, candidates should demonstrate sufficient proficiency in entomology or related disciplines, and/or in data science, computer science, or related fields, in order to benefit from the course. Applicants should also explain how participation in the course could positively influence their career development. 
 
 Students who have previously attended ACCESS are not eligible to apply, while applicants who were unsuccessful in previous years are welcome to apply again. 
