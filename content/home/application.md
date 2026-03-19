@@ -60,7 +60,7 @@ The application requires a CV (max 2 pages) and two short paragraphs (1500 chara
 Applications are evaluated by the organisers together with select members of the InsectAI core group. Selection is based primarily on motivation and the proposed research idea(s), with the final stage also considering the CV and the complementarity of participants when forming project teams.
 
 Participation is highly competitive, reflecting the consistently high number of applications submitted in past years.
-For more details on the evaluation procedure read [this page](evaluation). 
+For more details on the evaluation procedure and eligibility for financial support, please read [this page](evaluation). 
 
 #### Financial aspects
 For more details, please see the dedicated [page](financials). 
