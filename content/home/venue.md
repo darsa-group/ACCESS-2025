@@ -36,4 +36,5 @@ As Denmark's first carbon-neutral conference center, Kaløvigcenter runs entirel
   Image credits: KALØVIG Center
 </div>
 
-Information on how to reach the venue is available [here](https://kalovigcenter.dk/en/about-kaloevig-center/information-facts/); for accessibility options see the [FAQs](http://localhost:4321/ACCESS-2026/faq/).
+The venue is reachable by bus line 123 from Aarhus, plus a short taxi drive or ~20min walk on paved road. 
+Further info on how to reach the venue is available on their [website](https://kalovigcenter.dk/en/about-kaloevig-center/information-facts/); for accessibility options see the [FAQs](http://localhost:4321/ACCESS-2026/faq/).
