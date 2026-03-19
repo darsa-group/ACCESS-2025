@@ -1,13 +1,14 @@
 ---
 title: Evaluation procedure
 subtitle: 
-date: 20-02-2026
+date: 10-03-2026
 ---
 
 ## Eligibility
 Participation is open to any individual affiliated with a recognised legal entity anywhere in the world (see [Section 4.1](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf#%5B%7B%22num%22%3A123%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C502%2C0%5D) of the [COST annotated rules](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf)).
 
-While participation is globally open, **eligibility for financial support** (i.e. reimbursement of travel and daily allowance) depends on the country of the participant's affiliation, as defined in [section 6.4](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf#%5B%7B%22num%22%3A147%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C748%2C0%5D).Participants should verify their specific reimbursement status based on their institution's location (countries membership status [here](https://www.cost.eu/about/members/)), and the [COST annotated rules](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf) (consulted March 2026). 
+While participation is globally open, **eligibility for financial support** (i.e. reimbursement of travel and daily allowance) depends on the country of the participant's affiliation, as defined in [section 6.4](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf#%5B%7B%22num%22%3A147%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C69%2C748%2C0%5D).
+Participants should verify their specific reimbursement status based on their institution's location (countries membership status [here](https://www.cost.eu/about/members/)), and the [COST annotated rules](https://www.cost.eu/uploads/2025/11/COST-094-21-Annotated-Rules-for-COST-Actions-Level-C-V3.0-25-IX-2025.pdf) (consulted March 2026). 
 
 There are no specific requirements regarding education, age, or background. 
 However, candidates should demonstrate sufficient proficiency in entomology or related disciplines, and/or in data science, computer science, or related fields, in order to benefit from the course. Applicants should also explain how participation in the course could positively influence their career development. 
@@ -26,7 +27,7 @@ The **first paragraph** should describe your background, your interest in the to
 
 The **second paragraph** should describe one or more specific research project(s), question(s) or problem(s) you are excited to tackle in invertebrate evolution, ecology, behaviour, conservation, distribution, or related fields. This allows us to evaluate your creativity and your ability to identify meaningful gaps / opportunities in the field. **You will not necessarily work on the problem(s) you describe here**; this paragraph helps us gauge your current understanding and research interests.
 
-Because the course is project-based, the proposed research idea(s) are an important part of the application. Your project could involve monitoring insect behaviour in the field or laboratory, detecting or quantifying traits in specimens, building new hardware or mobile applications, automating existing research tasks, or generating new types of biological data. We are interested in a broad range of ideas related to computational entomology and will also consider projects involving other terrestrial invertebrates.
+Because the course is project-based, the proposed research idea(s) are an important part of the application. Your project could involve monitoring insect behaviour in the field or laboratory, detecting or quantifying traits in specimens, building new hardware or mobile applications, automating existing research tasks, or generating new types of biological data. We are interested in a broad range of ideas related to computational entomology and will also consider projects involving other terrestrial or freshwater invertebrates.
 
 You will also be asked whether you would you consider **self-financing your participation** if you are not selected for a funded slot. This information *remains hidden to reviewers during shortlisting*, to ensure impartiality. 
 
@@ -59,6 +60,5 @@ There may be more selected candidates than available funding. In this case, appl
 
 When all places have been filled, the results will be communicated to all remaining applicants, at the latest by the **end of June 2026**.
 
-Due to the large number of applications received, we regret that we cannot provide individual feedback to unsuccessful applicants.
-
 In previous editions the course has received a large number of applications, so please keep in mind that participation is competitive.
+Due to the large number of applications, we regret that we cannot provide individual feedback to unsuccessful applicants.
