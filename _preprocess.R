@@ -4,6 +4,7 @@ library("dplyr")
 library("stringr")
 library("rjson")
 
+
 ROLES <- c("keynote", "assistant", "organiser")
 SOCIAL_LINKS_MAP <- list(
 orcid=list(
@@ -26,7 +27,9 @@ research_gate=list(
 )
 )
 
+
 make_links <- function(row){
+
   links <- lapply(names(SOCIAL_LINKS_MAP), function(n){
     value <- row[[n]]
     if(is.na(value))
@@ -40,6 +43,8 @@ make_links <- function(row){
   links <- sprintf("[%s]", paste(links, collapse=", "))
   links
 }
+
+
 
 DEFAULT_PICTURE_FILE<- "content/people/_default_pict.png"
 PEOPLE_TEMPLATE_FILE <- "content/people/_people.md.template"
@@ -69,25 +74,20 @@ df <- filter(df, !is.na(id))
 
 print(df)
 
-make_people <- function(id_, debug_mode){
+make_people <- function(id_){
 
   d <- paste(tempdir(), id_, sep="/")
 
   dir.create(d)
   row <- filter(df, id==id_)
-  if(debug_mode){
-    print("=== DEBUGGING MODE ON ===")
-    print(row)
-  }
+  print(row)
   themes <- select(row, starts_with("theme_"))
   themes <- unlist(as.vector(themes))
   themes <- names(themes[themes])
   themes <- str_replace(themes,"theme_","")
 
   tags <- sapply(ROLES,function(i) {
-    if(debug_mode){
-      print(paste0("role_",i))
-    }
+    print(paste0("role_",i))
     ifelse(row[[paste0("role_",i)]], i, NA)}
     )
 
@@ -100,13 +100,9 @@ make_people <- function(id_, debug_mode){
   row$social_links <- make_links(row)
 
   content <-glue_data(row,people_template)
-  
-  out <- paste(d, "index.md", sep="/")
-  con <- file(out, open = "w", encoding = "UTF-8")
-  writeLines(content, con)
-  close(con)
-
+  cat(content, file= paste(d,"index.md", sep="/"))
   dst_pict_file <- paste(d,'featured.jpg',sep='/')
+
 
   if(!is.na(row$picture_url)){
     picture_file <- paste("assets", "image", row$picture_url, sep="/")
@@ -115,12 +111,7 @@ make_people <- function(id_, debug_mode){
       file.copy(picture_file, dst_pict_file)
     }
     else{
-      download.file(
-        url  = row$picture_url,
-        destfile = dst_pict_file,
-        mode = "wb",
-        quiet = TRUE
-      )
+      system(glue("curl '{row$picture_url}' > {dst_pict_file}"))
     }
   }
   else{
@@ -129,27 +120,11 @@ make_people <- function(id_, debug_mode){
   }
 
   final_dir <- paste("content", "people",paste0(AUTO_PPL_DIR_PREFIX, id_), sep="/")
-  if(debug_mode){
-    print(paste0("temporary dir = ", d))
-    print(paste0("final_dir = ", final_dir))
-  }
-  
-  if (dir.exists(final_dir)) {
-    unlink(final_dir, recursive = TRUE, force = TRUE)
-    }
 
-  dir.create(final_dir, recursive = TRUE, showWarnings = FALSE)
-
-  file.copy(
-    from = list.files(d, full.names = TRUE),
-    to = final_dir,
-    recursive = TRUE
-  )
-
-  unlink(d, recursive = TRUE, force = TRUE)
-
+  cmd = glue("rm {final_dir} -rf && mv {d} {final_dir}")
+  system(cmd)
 }
 
-o <- lapply(df$id, make_people, debug_mode = FALSE)
+o <- lapply(df$id, make_people)
 
 
