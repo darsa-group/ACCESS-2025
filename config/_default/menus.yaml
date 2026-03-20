@@ -9,15 +9,12 @@ main:
     url: '#about'
   - name: Venue
     url: '#venue'
-    weight: 20
+    weight: 19
   - name: Application
     url: '#application'
-    weight: 25
+    weight: 20
   - name: Program
     url: '#program'
-    weight: 30
-  - name: FAQ
-    url: '#faq'
     weight: 35
   - name: Contributors
     url: '#people'
@@ -27,4 +24,4 @@ main:
     weight: 50
   - name: Contact
     url: '#contact'
-    weight: 70
+    weight: 60
